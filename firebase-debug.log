@@ -1,0 +1,17 @@
+[debug] [2019-02-28T07:51:38.552Z] ----------------------------------------------------------------------
+[debug] [2019-02-28T07:51:38.553Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2019-02-28T07:51:38.553Z] CLI Version:   6.4.0
+[debug] [2019-02-28T07:51:38.553Z] Platform:      linux
+[debug] [2019-02-28T07:51:38.553Z] Node Version:  v11.9.0
+[debug] [2019-02-28T07:51:38.554Z] Time:          Thu Feb 28 2019 13:21:38 GMT+0530 (India Standard Time)
+[debug] [2019-02-28T07:51:38.554Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-28T07:51:38.559Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-28T07:51:38.559Z] > authorizing via signed-in user
+[debug] [2019-02-28T07:51:38.559Z] [iam] checking project dhruvsharma-1 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-28T07:51:38.560Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-28T07:51:38.560Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-28T07:51:39.078Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-28T07:51:39.124Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dhruvsharma-1:testIamPermissions  
+
