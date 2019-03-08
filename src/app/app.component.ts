@@ -1,6 +1,6 @@
-import { UserService } from './user.service';
+import { UserService } from 'shared/services/user.service';
 import {Router} from '@angular/router';
-import {AuthService} from './auth.service';
+import {AuthService} from 'shared/services/auth.service';
 import { Component } from '@angular/core';
 import { routerNgProbeToken } from '@angular/router/src/router_module';
 
